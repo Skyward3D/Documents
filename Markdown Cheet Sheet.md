@@ -1,5 +1,24 @@
 # Markdown Cheat Sheet
 
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Headings](#headings)
+- [Emphasis](#emphasis)
+- [Lists](#lists)
+  - [Unordered](#unordered)
+  - [Ordered](#ordered)
+  - [Nested](#nested)
+- [Links](#links)
+- [Images](#images)
+- [Blockquotes](#blockquotes)
+- [Code](#code)
+  - [Inline](#inline)
+  - [Block](#block)
+- [Horizontal Rule](#horizontal-rule)
+- [Tables](#tables)
+- [Task Lists](#task-lists)
+- [Escaping](#escaping)
+
 ## Headings
 
 ```markdown
