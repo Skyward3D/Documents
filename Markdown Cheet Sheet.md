@@ -41,21 +41,21 @@
 
 ## Lists
 
-**Unordered:**
+### Unordered:
 ```markdown
 - Item
 * Item
 + Item
 ```
 
-**Ordered:**
+### Ordered:
 ```markdown
 1. First
 2. Second
 3. Third
 ```
 
-**Nested:**
+### Nested:
 ```markdown
 - Item 1
   - Subitem 1.1
@@ -87,15 +87,13 @@
 
 ## Code
 
-**Inline:**  
-\`code\`
+### Inline:
+`code`
 
-**Block:**
-<pre>
+### Block:
 ```language
 Your code here
 ```
-</pre>
 
 ## Horizontal Rule
 
@@ -123,8 +121,14 @@ ___
 
 ## Escaping
 
-\`\\*\` renders as `*`
+To display Markdown characters literally, prefix with a backslash:
+```markdown
+\*literal asterisk\*  => *literal asterisk*
+\`backtick\`         => `backtick`
+```
 
 ---
 
-_This file covers the most common Markdown syntax!_
+Notes:
+- GitHub-style anchor links are lowercase with spaces converted to hyphens and most punctuation removed (e.g., "Table of Contents" → `#table-of-contents`). If you need anchors tailored for another renderer, I can adjust them.
+- I can also add a collapsed TOC, more examples, or printable PDF export if you'd like.
